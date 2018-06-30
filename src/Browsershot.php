@@ -442,6 +442,7 @@ class Browsershot
 
         $options = [
             'type' => $this->screenshotType,
+            'fullPage' => true
         ];
         if ($targetPath) {
             $options['path'] = $targetPath;
